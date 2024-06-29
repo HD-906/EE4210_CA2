@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Naked Eye 3D Stereo image</title>
+    <style>
+        body {
+            font-family: Frutiger, sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            font-family: Papyrus, Brush Script MT;
+            font-size: 20px;
+            background-color: #10A2E7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content, .gallery {
+            padding: 20px;
+            margin: 20px;
+        }
+
+            .content img, .gallery img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin-bottom: 10px;
+            }
+
+        .gallery {
+            background-color: #e0f2f1;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Naked Eye 3D Stereo image</h1>
+    </header>
+    <div class="content">
+        <h1>About</h1>
+        <p>Below is an image of a cat.</p>
+        <img src="Single Cat.jpg" alt="Normal 2D image">
+        <p>Below, you'll see 3D stereo images of the cat.</p>
+    </div>
+    <div class="gallery">
+        <h2>Pictures</h2>
+        <p>Click to view the image in full size.</p>
+        <a href="3D-Cat_Cross.jpg" target="_blank">
+            <img src="3D-Cat_Cross (s).jpg" alt="Cross-eyed">
+        </a>
+        <p>Below is the wide-eyed stereo image.</p>
+        <p>
+            Unlike the previous image, view this one by looking 'through' it,
+            as if focusing on an infinitely distant object, to overlap the left and right images.
+        </p>
+        <a href="3D-Cat_Wide.jpg" target="_blank">
+            <img src="3D-Cat_Wide (s).jpg" alt="Wide-eyed">
+        </a>
+        <p>
+            Note that there is a maximum width for a wide-eyed stereo pair - about 6cm for each view.
+            There is no such limit on the size of a cross-eyed stereo pair.
+        </p>
+    </div>
+    </body>
+    </html>
